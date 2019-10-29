@@ -24,3 +24,4 @@ weatherForm.addEventListener('submit', (event) => {
         });
     });
 });
+console.log("test");
