@@ -12,7 +12,6 @@ const forecast = (lat, long, callback) => {
             callback(undefined, body.daily.summary + ' It is currently ' + body.currently.temperature + ' degress out. There is ' + body.currently.precipProbability + '% chance of rain.');
         }
     });
-    console.log(url);
 };
 
 module.exports = forecast;
